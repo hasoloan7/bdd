@@ -1,0 +1,18 @@
+{
+  "name": "educybdd",
+  "version": "1.0.0",
+  "description": "belajar bdd",
+  "main": "index.js",
+  "author": "pareana",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.6.3",
+    "prettier": "^3.2.4"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.1",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "@cypress/webpack-preprocessor": "^6.0.1",
+    "eslint-plugin-cypress": "^2.15.1"
+  }
+}
