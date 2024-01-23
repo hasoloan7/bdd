@@ -1,5 +1,5 @@
 const { defineConfig } = require("cypress");
-const preprocessor = require("@badeball/cypress-cucumber-preprocessor").default; // Pastikan menggunakan .default
+const preprocessor = require("@badeball/cypress-cucumber-preprocessor");
 const browserify = require("@badeball/cypress-cucumber-preprocessor/browserify");
 
 async function setupNodeEvents(on, config) {
