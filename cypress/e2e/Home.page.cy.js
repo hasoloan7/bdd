@@ -5,7 +5,7 @@ class HomePage {
   }
 
   fillSearchBox(searchTerm) {
-    cy.get('#searchTerm').type(`${searchTerm} {enter}`);
+    cy.get('#searchTerm').type(`online {enter}`);
   }
 
   verifySearchResults() {
